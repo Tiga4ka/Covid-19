@@ -1,3 +1,8 @@
+SELECT * 
+FROM CovidDeaths
+
+-- Исправляем формат даты 
+
 ALTER TABLE CovidDeaths
 ADD normal_date INTEGER;
 
